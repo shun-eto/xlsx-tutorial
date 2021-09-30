@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "main.js",
 	"scripts": {
+		"start": "node src/main.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -15,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/shun-Eto/xlsx-tutorial/issues"
 	},
-	"homepage": "https://github.com/shun-Eto/xlsx-tutorial#readme"
+	"homepage": "https://github.com/shun-Eto/xlsx-tutorial#readme",
+	"dependencies": {
+		"xlsx": "^0.17.2"
+	}
 }
